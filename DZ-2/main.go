@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println (sum(1, 2))
+	fmt.Println (otherSum(1, 2))
 }
-func sum(a, b, int)int {
+func otherSum(a, b, int)int {
 	return a + b
 }
